@@ -1,0 +1,6 @@
+#bayram KARAHAN bayramk@gmail.com
+
+[Desktop Entry]
+Exec=sh /usr/local/bin/E-Sabitxdglink.sh
+Type=Application
+Name[tr_TR.utf8]=E-Tahta.desktop

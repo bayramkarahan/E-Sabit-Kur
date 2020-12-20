@@ -1,0 +1,11 @@
+ [Unit]
+Description=E-Sabit Başlatıldı.
+After=multi-user.target
+
+[Service]
+Type=simple
+Environment=export DISPLAY=:1
+ExecStart=/usr/local/bin/restore.sh 1>/usr/local/bin/E-Sabit.log 2>/usr/local/bin/E-SabitError.log
+
+[Install]
+WantedBy=multi-user.target
